@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/jpg" href="assets/svg/logo-beans.svg"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="../fonts/stylesheet.css">
+	<title>Coffee Shop</title>
+</head>
+
+<body>
+	<header class="header">
+	<div class="container">
+		<div class="header-top">
+			<a class="logo header-top__logo" href="#">
+				<img class="logo__img" src="assets/svg/logo-beans.svg" alt="">
+				<p class="logo__text">Coffee.</p>
+			</a>
+			<nav class="header-top__menu menu">
+				<ul class="menu__nav-list">
+					<li class="menu__nav-item">
+						<a href="#Home" class="menu__nav-link ">Home</a>
+					</li>
+					<li class="menu__nav-item">
+						<a href="#Products" class="menu__nav-link">Products</a>
+					</li>
+					<li class="menu__nav-item">
+						<a href="#Premium" class="menu__nav-link">Premium</a>
+					</li>
+					<li class="menu__nav-item">
+						<a href="#Blog" class="menu__nav-link">Blog</a>
+					</li>
+				</ul>
+				<div class="menu-icon-close">
+					<img src="assets/svg/menuClose.svg" alt="" class="menu-icon-close__img">
+				</div>
+			</nav>
+			<button type="button" class="menu__icon icon-menu">
+				<img class="menu__burger-img" src="assets/svg/burger-menu-icon.svg" alt="Menu Icon">
+			</button>
+		</div>
+	</div>
+</header>
+	<div class="home" id="Home">
+		<div class="home-container">
+			<div class="home__content">
+				<h1 class="home__title">
+					Choose Your Favorite Coffee And Enjoy.
+				</h1>
+				<p class="home__text">
+					Buy the best and delicious coffees.
+				</p>
+				<div class="home__data">
+					<div class="home__data-group">
+						<h3 class="home__data-number">
+							120K
+						</h3>
+						<p class="home__data-title">
+							Testimonials
+						</p>
+						<p class="home__data-desc">
+							Testimonials from various customers who trust us.
+						</p>
+					</div>
+					<div class="home__data-group">
+						<h3 class="home__data-number">
+							340+
+						</h3>
+						<p class="home__data-title">
+							Exclusive Product
+						</p>
+						<p class="home__data-desc">
+							Premium preparation with quality ingredients.
+						</p>
+					</div>
+				</div>
+			</div>
+			<a class="home__scroll" href="#Specialty">
+				<img class="home__scroll-img" src="assets/img/scroll 3.png" alt="Scroll">
+			</a>
+		</div>
+		<img class="home__bg-img" src="assets/img/home-bg.jpg" alt="Main BG">
+	</div>
+	<div class="specialty" id="Specialty">
+		<div class="container">
+			<div class="specialty__content">
+				<div class="specialty__top">
+					<h2 class="specialty__top-title small-title">
+						Specialty coffees that make you
+						happy and cheer you up!
+					</h2>
+					<a class="specialty__top-more button" href="#">
+						SEE MORE
+					</a>
+				</div>
+				<div class="specialty__bottom">
+					<ul class="specialty__bottom-list">
+						<li class="specialty__bottom-item item">
+							<img class="item__img" src="assets/img/Coffe-beans.png" alt="Coffee Beans">
+							<h6 class="item__title">
+								Selected Coffee
+							</h6>
+							<p class="item__desc">
+								We select the best premium coffee, for a true taste.
+							</p>
+						</li>
+						<li class="specialty__bottom-item item">
+							<img class="item__img" src="assets/img/cookie.png" alt="Coffee Beans">
+							<h6 class="item__title">
+								Delicious Cookies
+							</h6>
+							<p class="item__desc">
+								Enjoy your coffee with some hot cookies
+							</p>
+						</li>
+						<li class="specialty__bottom-item item">
+							<img class="item__img" src="assets/img/coffee-cup.png" alt="Coffee Beans">
+							<h6 class="item__title">
+								Enjoy at home
+							</h6>
+							<p class="item__desc">
+								Enjoy the best coffee in the comfort of your home.
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="products" id="Products">
+		<div class="container">
+			<div class="products__content">
+				<h3 class="products__title small-title">
+					Choose our delicious and best products
+				</h3>
+				<div class="products__filters">
+					<button class="products__filter-btn" data-filter=".Filter_1">
+						<p class="filter-btn__title">New Delicacies</p>
+						<div class="filter-btn__data">
+							<p class="filter-btn__count">3</p>
+							<p class="filter-btn__text">products</p>
+						</div>
+					</button>
+					<button class="products__filter-btn" data-filter=".Filter_2">
+						<p class="filter-btn__title">Hot Coffee</p>
+						<div class="filter-btn__data">
+							<p class="filter-btn__count">4</p>
+							<p class="filter-btn__text">products</p>
+						</div>
+					</button>
+					<button class="products__filter-btn" data-filter=".Filter_3">
+						<p class="filter-btn__title">Cookies And Cakes</p>
+						<div class="filter-btn__data">
+							<p class="filter-btn__count">4</p>
+							<p class="filter-btn__text">products</p>
+						</div>
+					</button>
+				</div>
+				<div class="products-section">
+					<ul class="products-section__list mix Filter_3">
+						<li class="products-section__item">
+							<a class="products-section__item-link" href="#">
+								<div class="products-section__item-image">
+									<img class="products-section__img" src="assets/img/cake1.png" alt="Product">
+								</div>
+								<div class="products-section__data">
+									<p class="products-section__data-price">
+										5$
+									</p>
+									<p class="products-section__data-title">
+										Cake
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="products-section__item">
+							<a class="products-section__item-link" href="#">
+								<div class="products-section__item-image">
+									<img class="products-section__img" src="assets/img/cake2.png" alt="Product">
+								</div>
+								<div class="products-section__data">
+									<p class="products-section__data-price">
+										5$
+									</p>
+									<p class="products-section__data-title">
+										Cake
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="products-section__item">
+							<a class="products-section__item-link" href="#">
+								<div class="products-section__item-image">
+									<img class="products-section__img" src="assets/img/cake3.png" alt="Product">
+								</div>
+								<div class="products-section__data">
+									<p class="products-section__data-price">
+										5$
+									</p>
+									<p class="products-section__data-title">
+										Cake
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="products-section__item">
+							<a class="products-section__item-link" href="#">
+								<div class="products-section__item-image">
+									<img class="products-section__img" src="assets/img/cake4.png" alt="Product">
+								</div>
+								<div class="products-section__data">
+									<p class="products-section__data-price">
+										5$
+									</p>
+									<p class="products-section__data-title">
+										Cake
+									</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<ul class="products-section__list mix Filter_1">
+						<li class="products-section__item">
+							<a class="products-section__item-link" href="#">
+								<div class="products-section__item-image">
+									<img class="products-section__img" src="assets/img/cookie-item.png" alt="Product">
+								</div>
+								<div class="products-section__data">
+									<p class="products-section__data-price">
+										5$
+									</p>
+									<p class="products-section__data-title">
+										Cookies
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="products-section__item">
+							<a class="products-section__item-link" href="#">
+								<div class="products-section__item-image">
+									<img class="products-section__img" src="assets/img/croissant 1.png" alt="Product">
+								</div>
+								<div class="products-section__data">
+									<p class="products-section__data-price">
+										6$
+									</p>
+									<p class="products-section__data-title">
+										Croissant
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="products-section__item">
+							<a class="products-section__item-link" href="#">
+								<div class="products-section__item-image">
+									<img class="products-section__img" src="assets/img/round-croisant.png" alt="Product">
+								</div>
+								<div class="products-section__data">
+									<p class="products-section__data-price">
+										4$
+									</p>
+									<p class="products-section__data-title">
+										Croissant
+									</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<ul class="products-section__list mix Filter_2">
+						<li class="products-section__item">
+							<a class="products-section__item-link" href="#">
+								<div class="products-section__item-image">
+									<img class="products-section__img" src="assets/img/coffee1.png" alt="Product">
+								</div>
+								<div class="products-section__data">
+									<p class="products-section__data-price">
+										5$
+									</p>
+									<p class="products-section__data-title">
+										Coffee
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="products-section__item">
+							<a class="products-section__item-link" href="#">
+								<div class="products-section__item-image">
+									<img class="products-section__img" src="assets/img/coffee2.png" alt="Product">
+								</div>
+								<div class="products-section__data">
+									<p class="products-section__data-price">
+										6$
+									</p>
+									<p class="products-section__data-title">
+										Coffee
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="products-section__item">
+							<a class="products-section__item-link" href="#">
+								<div class="products-section__item-image">
+									<img class="products-section__img" src="assets/img/coffee3.png" alt="Product">
+								</div>
+								<div class="products-section__data">
+									<p class="products-section__data-price">
+										6$
+									</p>
+									<p class="products-section__data-title">
+										Coffee
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="products-section__item">
+							<a class="products-section__item-link" href="#">
+								<div class="products-section__item-image">
+									<img class="products-section__img" src="assets/img/coffee4.png" alt="Product">
+								</div>
+								<div class="products-section__data">
+									<p class="products-section__data-price">
+										6$
+									</p>
+									<p class="products-section__data-title">
+										Coffee
+									</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="quality" id="Premium">
+		<div class="container">
+			<div class="quality__content">
+				<h3 class="quality__title small-title">
+					We offer a premium and better quality preparation just for you!
+				</h3>
+				<div class="quality__desc">
+					<div class="quality__main-image">
+						<img class="quality__main-img" src="assets/img/quality1.png" alt="Quality product">
+						<img class="quality__small-img" src="assets/img/quality-small.png" alt="Quality product Small">
+					</div>
+					<div class="quality__data">
+						<h6 class="quality__data-title small-title">
+							Premium Coffee
+						</h6>
+						<p class="quality__data-price small-title">
+							$94.99
+						</p>
+						<p class="quality__data-subtext">
+							Special Price
+						</p>
+						<p class="quality__data-desc">
+							We are delighted with our coffee. That's why you get the best premium coffee plus the kettle
+							made of resistant materials that you see in the image, for a special price.
+						</p>
+						<div class="quality__data-actions">
+							<button class="button">BUY NOW</button>
+							<a class="quality__data-seemore" href="#">SEE MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="quality__logos">
+				<ul class="quality__logo-list">
+					<li class="quality__logo-item">
+						<img class="quality__logo-img" src="assets/img/logo1.png" alt="Logo">
+					</li>
+					<li class="quality__logo-item">
+						<img class="quality__logo-img" src="assets/img/logo2.png" alt="Logo">
+					</li>
+					<li class="quality__logo-item">
+						<img class="quality__logo-img" src="assets/img/logo3.png" alt="Logo">
+					</li>
+					<li class="quality__logo-item">
+						<img class="quality__logo-img" src="assets/img/logo4.png" alt="Logo">
+					</li>
+					<li class="quality__logo-item">
+						<img class="quality__logo-img" src="assets/img/logo5.png" alt="Logo">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="blogs" id="Blog">
+		<div class="container">
+			<div class="blogs__content">
+				<h3 class="blogs__title small-title">
+					Our Blogs Coffee with trending topic for this week
+				</h3>
+				<ul class="blogs__list">
+					<li class="blogs__item">
+						<a href="" class="blogs__item-link">
+							<div class="blogs__item-image">
+								<img class="blogs__item-img" src="assets/img/blog1.png" alt="Blog 1">
+							</div>
+							<h5 class="blogs__item-title">
+								10 Coffee Recommendations
+							</h5>
+							<p class="blogs__item-desc">
+								The blogs about coffee will help you a lot about how it is prepared, its waiting time, for a
+								good quality coffee.
+							</p>
+							<div class="blogs__social social">
+								<p class="social__comments-count">
+									12
+								</p>
+								<p class="social__visit-count">
+									76,5K
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="blogs__item">
+						<a href="" class="blogs__item-link">
+							<div class="blogs__item-image">
+								<img class="blogs__item-img" src="assets/img/blog2.png" alt="Blog 1">
+							</div>
+							<h5 class="blogs__item-title">
+								12 Benefits Of Drinking Coffee
+							</h5>
+							<p class="blogs__item-desc">
+								The blogs about coffee will help you a lot about how it is prepared, its waiting time, for a
+								good quality coffee.
+							</p>
+							<div class="blogs__social social">
+								<p class="social__comments-count">
+									45
+								</p>
+								<p class="social__visit-count">
+									356,5K
+								</p>
+							</div>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+	<div class="container">
+		<div class="footer__content">
+			<a class="logo footer__logo" href="#">
+				<p class="logo__text">Coffee.</p>
+			</a>
+			<div class="footer__data">
+				<div class="footer__subscribe">
+					<p class="footer__subscribe-text">
+						Subscribe to our newsletter
+					</p>
+					<form action="" class="footer__form">
+						<input class="footer__input" type="text" placeholder="Your email address">
+						<button class="footer__subscribe-btn"></button>
+					</form>
+				</div>
+				<div class="footer__address">
+					<h6 class="footer__address-title social-title">
+						Address
+					</h6>
+					<p class="footer__address-text social-text">
+						9876 Hacienda Av.<br>
+						Lima, La Libertad 123, Perú
+					</p>
+				</div>
+				<div class="footer__contact">
+					<h6 class="footer__contact-title social-title">
+						Contact
+					</h6>
+					<p class="footer__contact-number social-text">
+						+987654321<br>
+						coffee@email.com
+					</p>
+				</div>
+				<div class="footer__office">
+					<h6 class="footer__office-title social-title">
+						Office
+					</h6>
+					<p class="footer__office-text social-text">
+						Monday - Saturday<br>
+						9AM - 10PM
+					</p>
+				</div>
+			</div>
+			<div class="footer__social">
+				<div class="footer__social-list">
+					<a class="footer__social-item" href="#">
+						<img class="footer__social-facebook" src="assets/svg/bxl-facebook.svg" alt="Facebook" >
+					</a>
+					<a class="footer__social-item" href="#">
+						<img class="footer__social-instagram" src="assets/svg/bxl-instagram.svg" alt="Instagram" >
+					</a>
+					<a class="footer__social-item" href="#">
+						<img class="footer__social-facebook" src="assets/svg/bxl-twitter.svg" alt="Twitter" >
+					</a>
+				</div>
+				<div class="footer__copyright">
+					<p class="footer__copyright-text">
+						Bedimcode. All rights reserved
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+	<script src="js/app.min.js"></script>
+
+</body>
+
+</html>
